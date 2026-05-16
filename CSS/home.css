@@ -1179,8 +1179,9 @@ button:hover{
       position:relative;
       height:100%;
       min-height:720px;
-      flex: 1;
-      display: flex;
+      display: block;
+      /*flex: 1;
+      display: flex;*/
       overflow:hidden;
       text-align: center;
       transition: all 0.6s ease;
@@ -1228,6 +1229,9 @@ button:hover{
             grid-template-columns: repeat(2,1fr);
           }
 
+                .login-image{
+            width:100%;
+        }
     
     @media(max-width:768px){
 
@@ -1264,6 +1268,15 @@ button:hover{
                 .hero-text h1{
                 font-size:35px;
             }
+
+                .login-image{
+            width:100%;
+        }
+
+        .login-image img{
+            max-width:400px;
+            margin:auto;
+        }
     .feature-boxes, .categories, .footer-content, .products, .blog-posts, .team-grid, .testimonial-grid{
             grid-template-columns:repeat(2,1fr);
           
@@ -1302,9 +1315,6 @@ button:hover{
         font-size:35px;
       }
 
-      .login-image{
-        min-height:420px;
-      }
 
       .quote-card{
         right:20px;
@@ -1349,6 +1359,14 @@ button:hover{
                 font-size:35px;
             }
 
+                .login-image{
+            width:100%;
+        }
+
+        .login-image img{
+            max-width:300px;
+            margin:auto;
+        }
     .feature-boxes, .categories, .footer-content, .products, .blog-posts, .team-grid, .testimonial-grid{
             grid-template-columns: 1fr;
           }

@@ -12,16 +12,18 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="CSS/home.css">
+
+    <link rel="stylesheet" href="CSS/home.css">
 
 </head>
 <body>
 <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="logo">
-           <a href="index.html">
+            <a href="index.html">
             <img src="Images/logo.png" alt="Company Logo">
             </a>
+            
         </div>
             <!-- HAMBURGER ICON -->
     <div class="hamburger" id="hamburger">
@@ -49,18 +51,15 @@
         </div>
    
     </nav>
-
-  <!-- =========================
+     <!-- =========================
          LOGIN
     ========================== -->
 
-    <section class="login-section">
+    <section>
 
         <div class="container login-container">
-            <div class="login-wrapper">
-         <!-- ==== LOGIN Form ===== -->
-          <div class="col-lg-5">
-                <div class="login-box active" id="loginForm">
+
+              <div class="login-box active" id="loginForm">
                  <h1 class="login-title">
                   Welcome Back
                   </h1>
@@ -126,15 +125,10 @@
 
                   </form>
                 </div> <!-- End of Login-form Div -->
-              </div> <!-- End of col-lg-5 Div -->
-           <!-- </div><!-- End of login-wrapper Div -->
-        <!--</div> <!-- End of container Div -->
+                
+                
+                <!-- Sign Up Section -->
 
-          <!-- Sign Up section -->
-            <div class="container login-container">
-              <div class="login-wrapper">
-                <!-- Sign Up Box -->
-                <div class="col-lg-5">
                 <div class="signup-box" id="signupForm">
 
                   <h1 class="login-title">
@@ -202,14 +196,8 @@
 
                   </form>
                 </div><!-- End of signup-box Div -->
-                </div><!-- End of col-lg-5 Div -->
-             <!-- </div><!-- End of login-wrapper Div -->
-            <!--</div><!-- End of Container Div -->
-
-            <!-- Forget Password section -->
-             <div class="container login-container">
-              <div class="login-wrapper">
-              <!-- Forget Password Box -->
+                
+                <!-- Forget Password Box -->
                 <div class="forget-box" id="forgetForm">
                     <h1 class="login-title">Reset Password </h1>
                     <p class="login-subtitle">
@@ -237,24 +225,19 @@
                     </form>
 
                </div><!-- End of forget-box Div -->
-              <!--</div><!-- End of login-wrapper Div -->
-             <!--</div><!-- End of Container Div -->
+              
 
-             <!-- IMAGE Section -->
-              <div class="login-image">
-                  <img src="Images/Summer-Collection/layered-suit.webp" alt="Fashion"> 
-              </div><!-- End of login-image Div -->
-              </div>
-             </div>
-              </div>
+            <div class="login-image">
+
+                <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?q=80&w=1200" alt="login image">
+
             </div>
-            </div>
+
         </div>
+
     </section>
+
     
-
-
-
     <!-- =========================
          FEATURES
     ========================== -->
@@ -295,12 +278,71 @@
 
     </section>
 
-<!-- FOOTER -->
 
-<!-- Scripts -->
-<script src="javascript/script.js"></script>
-<script>
-AOS.init();
-</script>
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <div class="container">
+
+            <div class="footer-content">
+
+                <div class="footer-box">
+                    <img class="footer-logo" src="Images/logo.png" alt="footer logo">
+                    <h3>The Swaa Boutique</h3>
+
+                    <p>
+                        Timeless fashion for the modern woman.
+                    </p>
+
+                    <div class="socials">
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-pinterest"></i>
+                    </div>
+
+                </div>
+
+                <div class="footer-box">
+
+                    <h3>Quick Links</h3>
+
+                    <a href="index.html">Home</a>
+                    <a href="shop.html">Shop</a>
+                    <a href="about.html">About</a>
+
+                </div>
+
+                <div class="footer-box">
+
+                    <h3>Customer Service</h3>
+
+                    <a href="#">Shipping</a>
+                    <a href="#">Returns</a>
+                    <a href="faq.html#FAQs">FAQs</a>
+                     <a href="faq.html#testimonial">Customer's Voice</a>
+                </div>
+
+                <div class="footer-box">
+
+                    <h3>Contact</h3>
+
+                    <p>hello@swaaboutique.com</p>
+                    <p>+1 234 567 890</p>
+
+                </div>
+
+            </div>
+
+            <div class="copyright">
+                © 2026 The Swaa Boutique
+            </div>
+
+        </div>
+
+    </footer>
+    <script src="javascript/script.js"></script>
 </body>
 </html>
