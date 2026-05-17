@@ -56,7 +56,7 @@ The Swaa Boutique/
 
 ## 1. Clone the Repository
 
-git clone https://github.com/your-username/the-swaa-boutique.git
+git clone https://github.com/your-username/the-swaa-boutique.git](https://shreeti-lut.github.io/The-Swaa-Boutique/
 
 ## 2. Open in VS Code
 
