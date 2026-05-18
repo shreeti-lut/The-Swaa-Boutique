@@ -21,6 +21,7 @@
             font-family:'Poppins',sans-serif;
             background:#fff;
             color:#222;
+            overflow-x: hidden;
         }
 
         img{
@@ -304,10 +305,15 @@ nav{
         }
 
         .product img{
+            width: 100%;
+            height: auto;
+            border-radius:10px;
+        }
+        /* .product img{
             width: 300px;
             height: 200px;
             border-radius:10px;
-        }
+        }*/
 
         .product h3{
             margin:15px 0 10px;
@@ -339,7 +345,8 @@ nav{
             box-shadow:0 5px 20px rgba(0,0,0,0.05);
         }
         .post img{
-            height:200px;
+            width: 100%;
+            height:300px;
             object-fit:cover;
         }
 
@@ -554,7 +561,7 @@ nav{
 
     .team-img{
          width:100%;
-        height:400px;
+        height:300px;
         border-radius:10px;
         overflow:hidden;
     }
@@ -604,7 +611,7 @@ nav{
     }
 
     .newsletter-form{
-      max-width:700px;
+      max-width:500px;
       margin:auto;
     }
 
@@ -1273,6 +1280,13 @@ button:hover{
             width:100%;
         }
 
+        .login-container{
+          flex-direction: column;
+          display: inline;
+          align-items: center;
+        
+         }
+         
         .login-image img{
             max-width:400px;
             margin:auto;
@@ -1281,7 +1295,7 @@ button:hover{
             grid-template-columns:repeat(2,1fr);
           
           }
-
+         
           .arrival-text h2{
                 font-size:35px;
             }
@@ -1369,8 +1383,20 @@ button:hover{
         }
     .feature-boxes, .categories, .footer-content, .products, .blog-posts, .team-grid, .testimonial-grid{
             grid-template-columns: 1fr;
+            text-align: center;
           }
+      
+         .login-container{
+          flex-direction: column;
+          display: inline;
+          align-items: center;
+          text-align: center;
+         }
 
+         .footer-box img{
+         display: inline-block;
+
+          }
           .arrival-text h2{
                 font-size:35px;
             }
