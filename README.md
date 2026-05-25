@@ -2,7 +2,7 @@
 
 A modern and responsive fashion boutique website built using **HTML, CSS, and JavaScript** in **Visual Studio Code**.
 
-This project showcases a luxury-inspired design with responsive layouts, some effects, product cards, blog pages, and interactive navigation.
+This project showcases a luxury-inspired design with responsive layouts, some effects, product cards ,parallax, a slideshow of images, blog pages, and interactive navigation.
 
 # Features
 
@@ -24,6 +24,7 @@ This project showcases a luxury-inspired design with responsive layouts, some ef
 - CSS3
 - JavaScript
 - Google Fonts
+- Font Awesome for icons
 
 ---
 
