@@ -36,7 +36,8 @@
         .container{
             width:90%;
             max-width:1200px;
-            margin:auto;
+
+            margin: auto;
         }
 
         .container-small{
@@ -46,7 +47,7 @@
         }
 
         section{
-            padding:70px 0;
+            padding:70px 0 10px 70px;
         }
 
         .btn{
@@ -371,52 +372,7 @@ nav{
         }
 
 
-             /* =========================
-           LOGIN SECTION
-        ========================== */
-
-        .login-container{
-            display:flex;
-            flex-wrap:wrap;
-            gap:40px;
-            align-items:center;
-        }
-
-        .login-form{
-            flex:1;
-        }
-
-        .login-form h2{
-            font-size:40px;
-            margin-bottom:15px;
-        }
-
-        .login-form input{
-            width:100%;
-            padding:15px;
-            margin-bottom:20px;
-            border:1px solid #ccc;
-            border-radius:5px;
-        }
-
-        .login-form button{
-            width:100%;
-            padding:15px;
-            border:none;
-            background:#111;
-            color:#fff;
-            cursor:pointer;
-        }
-
-        .login-image{
-            flex:1;
-        }
-
-        .login-image img{
-            border-radius:10px;
-        }
-
-
+            
         /* =========================
            ABOUT US
         ========================== */
@@ -978,14 +934,60 @@ button:hover{
 
 
 /* Login Section */
+ /* =========================
+           LOGIN SECTION
+        ========================== */
 
-/* LOGIN SECTION */
+        .login-container{
+            display:flex;
+            flex-wrap:wrap;
+            gap:20px;
+            align-items:center;
+        
+        }
+
+        .login-form{
+            flex:1;
+        }
+
+        .login-form h2{
+            font-size:40px;
+            margin-bottom:15px;
+        }
+
+        .login-form input{
+            width:100%;
+            padding:15px;
+            margin-bottom:20px;
+            border:1px solid #ccc;
+            border-radius:5px;
+        }
+
+        .login-form button{
+            width:100%;
+            padding:15px;
+            border:none;
+            background:#111;
+            color:#fff;
+            cursor:pointer;
+        }
+
+        .login-image{
+            flex:1;
+        }
+
+        .login-image img{
+            border-radius:10px;
+        }
+
+
+/* LOGIN SECTION 
 
     .login-section{
       padding:70px 0;
       background:#fff;
     }
-
+*/
 
        /* hide the login/signup/forget forms */
     /* Hidden forms */
@@ -1030,7 +1032,7 @@ button:hover{
       height: 520px; /* Adjust as needed to fit the content */
     }
     .login-box, .forget-box, .signup-box{
-      padding:55px;
+      padding:55px 55px 0 55px;
     }
 
     .login-title, .forget-title, .signup-title{
@@ -1291,12 +1293,14 @@ button:hover{
           flex-direction: column;
           display: inline;
           align-items: center;
-        
+          
          }
          
         .login-image img{
             max-width:400px;
+            height: 300px;
             margin:auto;
+          
         }
     .feature-boxes, .categories, .footer-content, .products, .blog-posts, .team-grid, .testimonial-grid{
             grid-template-columns:repeat(2,1fr);
