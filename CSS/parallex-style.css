@@ -106,9 +106,10 @@ button:hover{
 
 @media(max-width:550px){
     .picture1, .picture2, .picture3{
-        width: 100%; 
-        height: 100%;
-        background-attachment: scroll;
+     width: auto;
+     height: 85%;
+     background-attachment: scroll;
     }
+  
 
 }
